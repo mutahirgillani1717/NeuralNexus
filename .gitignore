@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Streamlit local state
+.streamlit/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# NeuralNexus Temporary Files
+# (Ignores the source PDFs you upload during testing)
+temp_*.pdf
+temp.pdf
+
+# Sentence Transformers / HuggingFace caches
+# (Prevents pushing the 80MB model weights to GitHub)
+models/
+.cache/
